@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<!--[if IE 9]>         <html class="no-js lt-ie10" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+
+<head>
+  <meta charset="utf-8">
+
+  <title>Bus Brand</title>
+
+  <meta name="description" content="ProUI is a Responsive Bootstrap Admin Template created by pixelcave and published on Themeforest.">
+  <meta name="author" content="pixelcave">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=0">
+
+  <!-- Icons -->
+  <!-- The following icons can be replaced with your own, they are used by desktop and mobile browsers -->
+  <link rel="shortcut icon" href="img/favicon.png">
+  <link rel="apple-touch-icon" href="img/icon57.png" sizes="57x57">
+  <link rel="apple-touch-icon" href="img/icon72.png" sizes="72x72">
+  <link rel="apple-touch-icon" href="img/icon76.png" sizes="76x76">
+  <link rel="apple-touch-icon" href="img/icon114.png" sizes="114x114">
+  <link rel="apple-touch-icon" href="img/icon120.png" sizes="120x120">
+  <link rel="apple-touch-icon" href="img/icon144.png" sizes="144x144">
+  <link rel="apple-touch-icon" href="img/icon152.png" sizes="152x152">
+  <link rel="apple-touch-icon" href="img/icon180.png" sizes="180x180">
+  <!-- END Icons -->
+
+  <!-- Stylesheets -->
+  <!-- Bootstrap is included in its original form, unaltered -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+
+  <!-- Related styles of various icon packs and plugins -->
+  <link rel="stylesheet" href="css/plugins.css">
+
+  <!-- The main stylesheet of this template. All Bootstrap overwrites are defined in here -->
+  <link rel="stylesheet" href="css/main.css">
+
+  <!-- Include a specific file here from css/themes/ folder to alter the default theme of the template -->
+
+  <!-- The themes stylesheet of this template (for using specific theme color in individual elements - must included last) -->
+  <link rel="stylesheet" href="css/themes.css">
+  <!-- END Stylesheets -->
+
+  <!-- Modernizr (browser feature detection library) -->
+  <script src="js/vendor/modernizr.min.js"></script>
+</head>
+
+<body>
+  <!-- Page Wrapper -->
+  <!-- In the PHP version you can set the following options from inc/config file -->
+  <!--
+            Available classes:
+
+            'page-loading'      enables page preloader
+        -->
+  <div id="page-wrapper">
+    <!-- Preloader -->
+    <!-- Preloader functionality (initialized in js/app.js) - pageLoading() -->
+    <!-- Used only if page preloader is enabled from inc/config (PHP version) or the class 'page-loading' is added in #page-wrapper element (HTML version) -->
+    <div class="preloader themed-background">
+      <h1 class="push-top-bottom text-light text-center"><strong>Admin</strong>Panel</h1>
+      <div class="inner">
+        <h3 class="text-light visible-lt-ie10"><strong>Loading..</strong></h3>
+        <div class="preloader-spinner hidden-lt-ie10"></div>
+      </div>
+    </div>
+    <!-- END Preloader -->
+
+    <!-- Page Container -->
+    <div id="page-container" class="sidebar-partial sidebar-visible-lg sidebar-no-animations">
+
+
+      <!-- Main Sidebar -->
+      <div id="sidebar">
+        <!-- Wrapper for scrolling functionality -->
+        <div id="sidebar-scroll">
+          <!-- Sidebar Content -->
+          <div class="sidebar-content">
+            <!-- Brand -->
+            <a href="index.html" class="sidebar-brand">
+              <i class="gi gi-flash"></i><span class="sidebar-nav-mini-hide"><strong>Bus</strong>BRAND</span>
+            </a>
+            <!-- END Brand -->
+
+            <!-- staff Info -->
+            <div class="sidebar-section sidebar-staff clearfix sidebar-nav-mini-hide">
+              <div class="sidebar-staff-avatar">
+                  <a href="page_ready_staff_profile.html">
+                      <img src="img/placeholders/avatars/avatar2.jpg" alt="avatar">
+                  </a>
+              </div>
+              <div class="sidebar-staff-name">John Doe</div>
+              <div class="sidebar-staff-links">
+                  <a href="page_ready_staff_profile.html" data-toggle="tooltip" data-placement="bottom" title="Profile"><i class="gi gi-staff"></i></a>
+                  <a href="page_ready_inbox.html" data-toggle="tooltip" data-placement="bottom" title="Messages"><i class="gi gi-envelope"></i></a>
+                  <!-- Opens the staff settings modal that can be found at the bottom of each page (page_footer.html in PHP version) -->
+                  <a href="javascript:void(0)" class="enable-tooltip" data-placement="bottom" title="Settings" onclick="$('#modal-staff-settings').modal('show');"><i class="gi gi-cogwheel"></i></a>
+                  <a href="login.html" data-toggle="tooltip" data-placement="bottom" title="Logout"><i class="gi gi-exit"></i></a>
+              </div>
+          </div>
+          <!-- END staff Info -->
+
+
+
+            <!-- Sidebar Navigation -->
+            <ul class="sidebar-nav">
+
+              <li>
+                <a href="dashboard.html" class=" active"><i class="fas fa-columns sidebar-nav-icon"></i><span class="sidebar-nav-mini-hide">Dashboard</span></a>
+              </li>
+              <br>
+              <li>
+                <a href="admin_profile.html" class=" active"><i class="fa fa-user sidebar-nav-icon"></i><span class="sidebar-nav-mini-hide">Admin</span></a>
+              </li>
+              <br>
+              <li>
+                <a href="agent_managment.html" class=" active"><i class="fa fa-users sidebar-nav-icon"></i><span class="sidebar-nav-mini-hide">Agent Management</span></a>
+              </li>
+              <br>
+              <li>
+                <a href="bus_managment.html" class=" active"><i class="fa fa-truck sidebar-nav-icon"></i><span class="sidebar-nav-mini-hide">Bus Management</span></a>
+              </li>
+              <br>
+              <li>
+                <a href="route_management.html" class=" active"><i class="fa fa-road sidebar-nav-icon"></i><span class="sidebar-nav-mini-hide">Route Management</span></a>
+              </li>
+              <br>
+              <li>
+                <a href="staff.html" class=" active"><i class="fa fa-users sidebar-nav-icon"></i><span class="sidebar-nav-mini-hide">Staff</span></a>
+              </li>
+              <br>
+              <li>
+                <a href="ticket_booking.html" class=" active"><i class="fa fa-money sidebar-nav-icon"></i><span class="sidebar-nav-mini-hide">Ticket Booking</span></a>
+              </li>
+              <br>
+              <li>
+                <a href="user_managment.html" class=" active"><i class="fa fa-users sidebar-nav-icon"></i><span class="sidebar-nav-mini-hide">User Management</span></a>
+              </li>
+            </ul>
+            
+            <!-- END Sidebar Navigation -->
+
+
+          </div>
+          <!-- END Sidebar Content -->
+        </div>
+        <!-- END Wrapper for scrolling functionality -->
+      </div>
+      <!-- END Main Sidebar -->
+
+
+      <!-- Main Container -->
+      <div id="main-container">
+        <!-- Header -->
+        <!-- In the PHP version you can set the following options from inc/config file -->
+        <!--
+                        Available header.navbar classes:
+
+                        'navbar-default'            for the default light header
+                        'navbar-inverse'            for an alternative dark header
+
+                        'navbar-fixed-top'          for a top fixed header (fixed sidebars with scroll will be auto initialized, functionality can be found in js/app.js - handleSidebar())
+                            'header-fixed-top'      has to be added on #page-container only if the class 'navbar-fixed-top' was added
+
+                        'navbar-fixed-bottom'       for a bottom fixed header (fixed sidebars with scroll will be auto initialized, functionality can be found in js/app.js - handleSidebar()))
+                            'header-fixed-bottom'   has to be added on #page-container only if the class 'navbar-fixed-bottom' was added
+                    -->
+        <header class="navbar navbar-default">
+          <!-- Left Header Navigation -->
+          <ul class="nav navbar-nav-custom">
+            <!-- Main Sidebar Toggle Button -->
+            <li>
+              <a href="javascript:void(0)" onclick="App.sidebar('toggle-sidebar');this.blur();">
+                <i class="fa fa-bars fa-fw"></i>
+              </a>
+            </li>
+            <!-- END Main Sidebar Toggle Button -->
+
+
+          </ul>
+          <!-- END Left Header Navigation -->
+
+          <!-- Search Form -->
+          <form action="page_ready_search_results.html" method="post" class="navbar-form-custom">
+            <div class="form-group">
+              <input type="text" id="top-search" name="top-search" class="form-control" placeholder="Search..">
+            </div>
+          </form>
+          <!-- END Search Form -->
+          <!--start body-->
+
+          <!--End body-->
+
+        </header>
+        <!-- END Header -->
+
+        <!-- Page content -->
+        <div id="page-content">
+          <!-- Dashboard Header -->
+
+          <div class="content-header">
+            <div class="header-section">
+              <h1>
+                <i class="fa fa-table"></i><small>Welcome </small>USER
+              </h1>
+            </div>
+          </div>
+
+          <!-- admin profile -->
+          <div class="row a-profile">
+            <div class="col-lg-8">
+              <!-- admin Info Block -->
+              <div class="block">
+                <!-- admin Info Title
+                <div class="block-title">
+                  <h2><i class="fa fa-file-o"></i> <strong>Customer</strong> Info</h2>
+                </div>
+                 END admin Info Title -->
+
+                <!-- admin Info -->
+                <div class="block-section text-center">
+                  <a href="javascript:void(0)">
+                    <img src="img/placeholders/avatars/avatar4@2x.jpg" alt="avatar" class="img-circle">
+                  </a>
+                  <h3>
+                    <strong>User Name</strong><br><small></small>
+                  </h3>
+                </div>
+                <table class="table table-borderless table-striped table-vcenter">
+                  <tbody>
+                    <tr>
+                        <td class="text-right"><strong>Gender</strong></td>
+                        <td>Gender Type</td>
+                      </tr>
+                    <tr>
+                      <td class="text-right"><strong>Email Id</strong></td>
+                      <td>user@mail.com</td>
+                    </tr>
+                    <tr>
+                      <td class="text-right"><strong>Contact</strong></td>
+                      <td>9988776655</td>
+                    </tr>
+                    <tr>
+                      <td class="text-right"><strong>Street</strong></td>
+                      <td>New street</td>
+                    </tr>
+                    <tr>
+                      <td class="text-right"><strong>City</strong></td>
+                      <td>user city</td>
+                    </tr>
+                    <tr>
+                      <td class="text-right"><strong>State</strong></td>
+                      <td>user state</td>
+                    </tr>
+                    <tr>
+                      <td class="text-right"><strong>Status</strong></td>
+                      <td><span class="label label-success"><i class="fa fa-check"></i> Active</span></td>
+                    </tr>
+                    <tr>
+                      
+                  </tbody>
+                </table>
+                <!-- END admin Info -->
+              </div>
+            </div>
+          </div>
+      <!-- admin profile end -->
+
+        </div>
+
+        <!-- END Page Content -->
+
+        <!-- Footer -->
+        <footer class="clearfix">
+          <div class="pull-right">
+            Crafted with <i class="fa fa-heart text-danger"></i> by <a href="#" target="_blank">myteam</a>
+          </div>
+          <div class="pull-left">
+            2020 &copy;
+          </div>
+        </footer>
+        <!-- END Footer -->
+      </div>
+      <!-- END Main Container -->
+    </div>
+    <!-- END Page Container -->
+  </div>
+  <!-- END Page Wrapper -->
+
+  <!-- Scroll to top link, initialized in js/app.js - scrollToTop() -->
+  <a href="#" id="to-top"><i class="fa fa-angle-double-up"></i></a>
+
+
+
+  <!-- jQuery, Bootstrap.js, jQuery plugins and Custom JS code -->
+  <script src="js/vendor/jquery.min.js"></script>
+  <script src="js/vendor/bootstrap.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/app.js"></script>
+
+  <!-- Google Maps API Key (you will have to obtain a Google Maps API key to use Google Maps) -->
+  <!-- For more info please have a look at https://developers.google.com/maps/documentation/javascript/get-api-key#key -->
+  <script src="https://maps.googleapis.com/maps/api/js?key="></script>
+  <script src="js/helpers/gmaps.min.js"></script>
+
+  <!-- Load and execute javascript code used only in this page -->
+  <script src="js/pages/index.js"></script>
+  <script>
+    $(function() {
+      Index.init();
+    });
+  </script>
+
+</body>
+
+</html>
